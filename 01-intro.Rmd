@@ -2,25 +2,32 @@
 
 ## What is this handbook?
 
-Currently there is a gap in the genomic epidemiology literature. There are excellent review papers providing short, accessible summaries of how pathogen genomics can support aims in public health (e.g. https://www.nejm.org/doi/full/10.1056/NEJMsr1813907). On the other end of the spectrum are scientific papers describing technical methods and findings of genomic epidemiological studies of various pathogens. We as authors felt that something was missing from the middle, a resource that introduced the basic theory and utility of genomic epidemiology in public health practice, with an emphasis on practical applications of genomic epidemiology. To this end, we have strived to create a resource that will help readers:
+Currently there is a gap in the genomic epidemiology literature. There are excellent review papers providing short, accessible summaries of how pathogen genomics can support aims in public health (e.g. https://www.nejm.org/doi/full/10.1056/NEJMsr1813907). On the other end of the spectrum are scientific papers describing technical methods and findings of genomic epidemiological studies of various pathogens. We felt that something was missing from the middle; an open resource that introduced the basic theory and utility of genomic epidemiology in public health practice, and provided step-by-step guidance for investigating common questions. To this end, we have strived to create a resource that will help readers:
 
-1. *Understand* how genomic epidemiology can support certain investigations,
-2. *Implement* genomic surveillance systems, and
-3. *Apply* genomic epidemiology to routine investigations in public health practice.
+1. **Understand** how genomic epidemiology can support certain investigations,
+2. **Implement** genomic surveillance systems, and
+3. **Apply** genomic epidemiology to routine investigations in public health practice.
 
 ## What this handbook is not.
 
-This resource is not a collation and review of the primary literature in genomic epidemiology, nor do we aim to provide an exhaustive description of all the questions that scientists can investigate with genomic epidemiology. We will not present every analytical method that can be used in genomic epidemiology, nor will we provide information on a full suite of software packages and tools that can be used in genomic epidemiology. Rather, this handbook is meant as a practical guide to applied genomic epidemiology. As such, we focus on the questions that we have seen public health practitioners encounter most frequently, and present analytical methods and tools that are easily used within public health departments and other applied epidemiology settings.
+This resource is not a review of the primary literature in genomic epidemiology, nor do we aim to provide an exhaustive description of all the questions that scientists can investigate with genomic epidemiology. We will not present every method for genomic epidemiological analysis, nor will we provide information on the entire suite of available analytic tools. Rather, this handbook is meant as a practical guide to applied genomic epidemiology. As such, we focus on the questions that we have seen public health practitioners encounter most frequently, and present analytical methods and tools that are easily used within public health departments and other applied epidemiology settings. 
 
 ## Who is this handbook written for?
 
-This playbook is designed to support the use of genomic epidemiology in public health decision making and outbreak response. This book is for you if you are already involved in, or want to develop a program for, genomic data collection, genomic data analysis, genomic data interpretation, and/or policy evaluation in public health. For example:
+We have designed this handbook to support the use of genomic epidemiology in public health decision making and outbreak response. This book is for you if you are already involved in, or want to develop a program for, genomic data collection, genomic data analysis, genomic data interpretation, and/or policy evaluation in public health. For example:
+
 * Public health microbiologists or lab directors developing a genomic surveillance program.
 * Bioinformaticians working in public health, and wanting to increase their familiarity with the goals, theory, and approaches specific to genomic epidemiology.
-* Epidemiologists who typically work with surveillance data, but increasingly want to integrate molecular information as well.
+* Epidemiologists who typically work with surveillance data, but who want to integrate molecular information as well.
 * Health officers or other policy makers who want to understand more about pathogen genomic data as a source of epidemiological information.
 * Academics collaborating with a public health institution who want to learn more about genomic epidemiology in applied public health settings.
 
 ## How should you read this handbook?
 
-You can think of this resource as funnel-shaped, moving from imperative concepts that all readers should find useful towards more specific implementation information that is most pertinent for those subset readers specifically involved in data collection and analysis. We recommend that all readers read the Introduction. Readers involved in designing or implementing genomic surveillance and epidemiology should read the section on “Broad use cases for genomic epidemiology”. This section outlines the pertinent theoretical concepts, recommended sampling frames, analytical approaches, and common challenges for each different use case. From there, readers who want to see examples of these different use cases in action should read the “Case studies” section. Finally, we have a section on “Tools and methods”, which lives towards the end of this playbook since it is primarily pertinent to those readers actively involved in genomic epidemiological analysis. For those readers who wish to delve into additional theoretical concepts, or who encounter edge cases, we recommend reading the “Further concepts and edge cases”. We also supply more technical information and standard operating procedures for genomic surveillance as technical appendices.
+You can think of this resource as funnel-shaped, moving from imperative concepts that all readers should find useful towards more specific implementation information that is most pertinent for those readers specifically involved in data collection and analysis. We recommend that all readers read the first two chapters introducing the utility of pathogen genomics in public health and the fundamental theory underlying genomic epidemiology. These two sections will help you understand how genomic data enrich public health investigations and the basic mechanics behind genomic epidemiology. These sections will also help to introduce common language for discussing phylogenetic trees. 
+
+Readers involved in designing or implementing genomic surveillance and epidemiology programs within their agencies should also read the sections on sampling strategy and broad use cases for genomic epidemiology. These sections will help outline in more detail how to approach data collection and analysis for common topical areas and questions we see public health departments seeking to investigate with genomic epidemiological approaches. 
+
+From there, readers who wish to see investigations falling under these different use cases in action should read the “Case studies” section. Our intent with the case studies is to show step-by-step why we initiated an investigation, how we framed our question of interest, and how we investigated it, including quality control, evaluating competing hypotheses, and weighing uncertainty. While narratives presented in the published literature are by design cohesive and smooth, with these case studies, we aim to show exactly how an investigation occurred, including bumps and questions along the way.
+
+Finally, we have a section on “Tools and methods”, which lives towards the end of this handbook since it is primarily pertinent to those readers actively involved in genomic epidemiological analysis.
