@@ -1,21 +1,26 @@
-# Introduction {#intro}
+# An introduction to this resource {#intro}
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+## What is this handbook?
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+Currently there is a gap in the genomic epidemiology literature. There are excellent review papers providing short, accessible summaries of how pathogen genomics can support aims in public health (e.g. https://www.nejm.org/doi/full/10.1056/NEJMsr1813907). On the other end of the spectrum are scientific papers describing technical methods and findings of genomic epidemiological studies of various pathogens. We as authors felt that something was missing from the middle, a resource that introduced the basic theory and utility of genomic epidemiology in public health practice, with an emphasis on practical applications of genomic epidemiology. To this end, we have strived to create a resource that will help readers:
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
+1. *Understand* how genomic epidemiology can support certain investigations,
+2. *Implement* genomic surveillance systems, and
+3. *Apply* genomic epidemiology to routine investigations in public health practice.
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+## What this handbook is not.
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
+This resource is not a collation and review of the primary literature in genomic epidemiology, nor do we aim to provide an exhaustive description of all the questions that scientists can investigate with genomic epidemiology. We will not present every analytical method that can be used in genomic epidemiology, nor will we provide information on a full suite of software packages and tools that can be used in genomic epidemiology. Rather, this handbook is meant as a practical guide to applied genomic epidemiology. As such, we focus on the questions that we have seen public health practitioners encounter most frequently, and present analytical methods and tools that are easily used within public health departments and other applied epidemiology settings.
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+## Who is this handbook written for?
+
+This playbook is designed to support the use of genomic epidemiology in public health decision making and outbreak response. This book is for you if you are already involved in, or want to develop a program for, genomic data collection, genomic data analysis, genomic data interpretation, and/or policy evaluation in public health. For example:
+* Public health microbiologists or lab directors developing a genomic surveillance program.
+* Bioinformaticians working in public health, and wanting to increase their familiarity with the goals, theory, and approaches specific to genomic epidemiology.
+* Epidemiologists who typically work with surveillance data, but increasingly want to integrate molecular information as well.
+* Health officers or other policy makers who want to understand more about pathogen genomic data as a source of epidemiological information.
+* Academics collaborating with a public health institution who want to learn more about genomic epidemiology in applied public health settings.
+
+## How should you read this handbook?
+
+You can think of this resource as funnel-shaped, moving from imperative concepts that all readers should find useful towards more specific implementation information that is most pertinent for those subset readers specifically involved in data collection and analysis. We recommend that all readers read the Introduction. Readers involved in designing or implementing genomic surveillance and epidemiology should read the section on “Broad use cases for genomic epidemiology”. This section outlines the pertinent theoretical concepts, recommended sampling frames, analytical approaches, and common challenges for each different use case. From there, readers who want to see examples of these different use cases in action should read the “Case studies” section. Finally, we have a section on “Tools and methods”, which lives towards the end of this playbook since it is primarily pertinent to those readers actively involved in genomic epidemiological analysis. For those readers who wish to delve into additional theoretical concepts, or who encounter edge cases, we recommend reading the “Further concepts and edge cases”. We also supply more technical information and standard operating procedures for genomic surveillance as technical appendices.
