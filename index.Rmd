@@ -1,6 +1,6 @@
 --- 
-title: "A handbook for applied genomic epidemiology"
-author: "Allison Black, Gytis Dudas, Patrick Ayscue"
+title: "A Minimal Book Example"
+author: "Yihui Xie"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -9,7 +9,7 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "This handbook is an open resource that describes the utility of genomic epidemiology in applied epidemiology, and how to put it into action within public health settings."
+description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
 ---
 
 # Prerequisites
