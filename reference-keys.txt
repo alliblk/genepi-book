@@ -1,7 +1,9 @@
-fig:nice-fig
-tab:nice-tab
 prerequisites
 intro
+what-is-this-handbook
+what-this-handbook-is-not.
+who-is-this-handbook-written-for
+how-should-you-read-this-handbook
 literature
 methods
 math-example
