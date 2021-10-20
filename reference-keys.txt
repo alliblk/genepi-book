@@ -1,9 +1,11 @@
+prerequisites
 intro
 what-is-this-handbook
 what-this-handbook-is-not.
 who-is-this-handbook-written-for
 how-should-you-read-this-handbook
-literature
+the-value-of-pathogen-genomics-in-applied-epidemiology
+the-value-of-genomic-epidemiology-for-surveillance.
 methods
 math-example
 applications
