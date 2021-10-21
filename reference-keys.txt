@@ -6,3 +6,4 @@ who-is-this-handbook-written-for
 how-should-you-read-this-handbook
 the-value-of-pathogen-genomics-in-applied-epidemiology
 the-value-of-genomic-epidemiology-for-surveillance.
+the-value-of-genomic-epidemiology-for-outbreak-response.
