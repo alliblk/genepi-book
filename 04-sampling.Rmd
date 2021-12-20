@@ -1,0 +1,3 @@
+#Sampling strategies
+
+_In this Chapter we describe two major approaches to sample selection for genomic epidemiological studies. We describe when you should use these different sampling strategies, focusing on which types of questions you may be interested in, and how the particular sampling strategy supports the goal of your investigation. This Chapter is pertinent for any readers who are actively seeking to implement genomic surveillance programs and integrate genomic epidemiology into their public health investigations. Readers who want to understand why different sampling strategies are useful will also benefit from reading these sections._

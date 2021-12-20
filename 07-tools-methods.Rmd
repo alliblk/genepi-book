@@ -1,0 +1,3 @@
+# Tools and methods
+
+_In this Chapter we describe various types of methods you may want to use in applied genomic epidemiological analysis, as well as different software tools for performing those analyses. Since this handbook is narrowly focused on applied genomic epidemiological analysis, this chapter focuses on easily-deployable and fast tools for performing comparative analysis of multiple genome sequences. We do not discuss bioinformatic approaches for generating consensus genomes from sequencing read data, nor will we elaborate deeply on methods and tools used primarily in academic settings for genomic epidemiological analysis. This chapter is most pertinent for readers who will be performing genomic epidemiological analysis themselves._

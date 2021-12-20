@@ -1,0 +1,3 @@
+# Broad use cases for genomic epidemiology
+
+_In this Chapter we describe thematic areas of genomic epidemiological analysis for public health investigations. For each of these areas, we provide more concrete examples of the types of questions that fall within these topical areas, the fundamental theoretical principles that you will draw upon to investigate those questions, and different sampling methods and analysis methods for investigating those types of questions. This Chapter is pertinent to readers who seeking a concrete description of when to use genomic epidemiological analysis and how to conduct different types of studies and analyses._

@@ -1,0 +1,3 @@
+# Further concepts
+
+_In this Chapter we describe additional theoretical and practical concepts that you may encounter as you delve more deeply into using genomic epidemiology or reading the genomic epidemiology literature. These concepts likely won’t crop up regularly in bread-and-butter genomic epidemiological applications, but are common enough that they do warrant some discussion and clarification. This Chapter is most pertinent to readers who already have some familiarity with genomic epidemiology, and are seeking to deepen their knowledge._
