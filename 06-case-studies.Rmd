@@ -11,8 +11,7 @@ County A is a predominantly rural county, in which diagnostic testing and genomi
 In response to these detections, County A undertook a rigorous analysis of the whole genome sequences from these two cases. Firstly, since these were the first B.1.1.7 cases detected in the county, County A wanted to verify the accuracy of the lineage calls. To do so, they looked at the `.bam` files, which show the actual sequencing read data mapped to a reference genome. To confirm the quality of the B.1.1.7 lineage defining SNP calls, they looked at the total number of reads that covered the lineage-defining site, and looked for the particular SNP call in each of the reads (Figure 1). This process was repeated for all B.1.1.7 defining sites.
 
 ```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
+knitr::include_graphics("figures/06_county-a-bam.png")
 ```
 
 Figure 1: A zoomed in picture of site 23063 in the nucleotide sequence, where the reference sequence has an A and the sequencing reads show that this infection has a T at this site. The A23063T mutation in the nucleotide sequence corresponds to an N501Y substitution in Spike protein, which is one of multiple lineage defining mutations for B.1.1.7. At this site there are 390 distinct, high quality sequencing reads that support this call. Furthermore, both forward and reverse reads detect this nucleotide, further demonstrating that this call is real.
