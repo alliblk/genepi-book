@@ -1,4 +1,7 @@
-fig:nice-fig
+fig:county-a-bam
+fig:county-a-quality
+fig:county-a-placement
+fig:county-a-clock
 intro
 what-is-this-handbook
 what-this-handbook-is-not.
