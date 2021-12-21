@@ -55,70 +55,6 @@
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
-<style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-</style>
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -184,7 +120,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>At the beginning of 2021, public health authorities within the United States were concerned about the transmission of the B.1.1.7 lineage (“Alpha” within the WHO nomenclature system), which appeared to be more transmissible than previous strains of SARS-CoV-2. Already the dominantly-circulating lineage within the United Kingdom, public health agencies within the United States were interested in whether B.1.1.7 had already arrived in the United States, and if so, how it was distributed and at what frequency. Genomic surveillance activities were established and intensified to investigate these questions. Beyond estimating frequency, some public health agencies also monitored for individual cases infected with “Variant of Concern” lineages, which they might prioritize for more aggressive contact tracing and control efforts to limit the establishment and growth of VOC lineages within the jurisdiction.</p>
 <p>County A is a predominantly rural county, in which diagnostic testing and genomic surveillance are primarily handled by the local public health laboratory. The county started an in-house SARS-CoV-2 sequencing program at the beginning of 2021, and had regular sequencing and lineage assignment protocols in place during the spring of 2021, when they detected their first two cases of B.1.1.7 lineage-viruses among two residents of the county. The two cases were detected and sampled during the same week, a timeline that was consistent with one case infecting the other, resulting in an epidemiologically-linked pair. Beyond the timing of the two infections, epidemiological-linkage between the cases seemed possible since both cases were assigned the same lineage (B.1.1.7), and no other B.1.1.7 cases had been detected in County A up to this point. However, while Pango lineage assignments can provide a useful summary of different genetic lineages, most Pango lineages have genetic diversity within the lineage. Especially for lineages whose frequency grows significantly, such as B.1.1.7, there may be many different transmission chains of B.1.1.7 viruses circulating within different geographic areas. In such cases, phylogenetic analyses can provide higher resolution for refining relationships between cases.</p>
 <p>In response to these detections, County A undertook a rigorous analysis of the whole genome sequences from these two cases. Firstly, since these were the first B.1.1.7 cases detected in the county, County A wanted to verify the accuracy of the lineage calls. To do so, they looked at the <code>.bam</code> files, which show the actual sequencing read data mapped to a reference genome. To confirm the quality of the B.1.1.7 lineage defining SNP calls, they looked at the total number of reads that covered the lineage-defining site, and looked for the particular SNP call in each of the reads (Figure 5.1). This process was repeated for all B.1.1.7 defining sites.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="case-studies.html#cb1-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&quot;figures/06_county-a-bam.png&quot;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:county-a-bam"></span>
 <img src="figures/06_county-a-bam.png" alt="A zoomed in picture of site 23063 in the nucleotide sequence, where the reference sequence has an A and the sequencing reads show that this infection has a T at this site. The A23063T mutation in the nucleotide sequence corresponds to an N501Y substitution in Spike protein, which is one of multiple lineage defining mutations for B.1.1.7. At this site there are 390 distinct, high quality sequencing reads that support this call. Furthermore, both forward and reverse reads detect this nucleotide, further demonstrating that this call is real." width="80%" />
 <p class="caption">
@@ -193,7 +128,6 @@ Figure 5.1: A zoomed in picture of site 23063 in the nucleotide sequence, where 
 </div>
 <p>Next, County A took the two confirmed B.1.1.7 lineage viruses and imported the sequences into Nextclade in order to assess their quality. The sequences showed minimal numbers of Ns, no mixed sites, and a reasonable number of mutations as compared to the Wuhan-Hu-1 reference genome (Figure 5.2). This indicates that the sequences are high quality, and appropriate for analysis. Notably, the sequences do have frameshift mutations in them, which is why the Nextclade F metric is red (Figure 5.2). While sometimes real, these frameshifts are often a bioinformatic artifact from the consensus genome assembly pipeline. While the author of a genome sequence will typically have to fix or document a frameshift for public repositories to accept the sequence, one can still use them in phylogenetic pipelines that “strip” these frameshifts away.</p>
 <p>Looking at the two sequences together in the Nextclade alignment viewer, we can see that both samples share some SNPs, as indicated by the colored bars (Figure 5.2). This makes sense since we know that both samples are B.1.1.7 lineage viruses. However, we can also see that there are differences between the two sequences as well (Figure 5.2). Each sample has numerous additional SNPs that are unique to the sample. This indicates that these samples are likely not directly related. The next paragraph will discuss that logic in more depth, and show how we can see that genetic divergence on the phylogenetic placement available in Nextclade.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="case-studies.html#cb2-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&quot;figures/06_county-a-quality.png&quot;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:county-a-quality"></span>
 <img src="figures/06_county-a-quality.png" alt="The two B.1.1.7 lineage viruses as visualized in Nextclade (sequence names are intentionally masked). Notably, all quality metrics show that the sequences are of high quality, except for the “F” metric, which indicates that a frameshift mutation has been detected. The sequence view shows that the two sequences share many SNPs, but also have some unique SNPs that are not found in the other sequence." width="80%" />
 <p class="caption">
@@ -201,7 +135,6 @@ Figure 5.2: The two B.1.1.7 lineage viruses as visualized in Nextclade (sequence
 </p>
 </div>
 <p>In Nextclade we can take our two sequences and “graft” them onto a pre-inferred Nextstrain phylogeny in a process that is termed “phylogenetic placement”. The sequences are placed onto the tree according to the patterns of substitutions that the tree summarizes, and that your sequences have. The sequences of interest are placed onto the tree at the point where most of the SNPs in your genome sequence have also been observed in the tree. Then, any mutations that are unique to your sample, and not yet detected in the background tree, are shown as branch length leading from the tree to the sample of interest. In Figure 5.3A below, we can see that both sequences group in the Alpha lineage portion of the tree, consistent with their designation as B.1.1.7 lineage viruses. When we zoom in to the Alpha clade of the tree, we can see that despite both viruses receiving a B.1.1.7 assignment, they are quite diverged (Figure 5.3B). Indeed, these two B.1.1.7 sequences are separated by 13 SNPs (Figure 5.2 and Figure 5.3B). This is much more genetic divergence than we would expect to see if the sequences were epidemiologically-linked.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="case-studies.html#cb3-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&quot;figures/06_county-a-phylo-placement.png&quot;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:county-a-placement"></span>
 <img src="figures/06_county-a-phylo-placement.png" alt="A) Nextclade phylogenetic placement of the two B.1.1.7 sequences onto a background Nextstrain tree. Nextclade places both of these sequences on the tree within the Alpha clade, consistent with the Pango lineage assignments and our visual assessment of the sequencing reads. B) A zoomed in view of the two sequences within the Alpha lineage of the tree shows that they are placed onto different parts of the tree within the Alpha clade. You can count the number of nucleotides changes separating the two viruses by “walking the path” of the highlighted branches between the two samples, counting up the number of nucleotide changes observed on each segment of the path as you go. An important note is that the vertical axis has no meaning, thus you are only summing up the number of SNPs observed along the horizontal branches." width="80%" />
 <p class="caption">
@@ -209,7 +142,6 @@ Figure 5.3: A) Nextclade phylogenetic placement of the two B.1.1.7 sequences ont
 </p>
 </div>
 <p>For an in-depth discussion of different thresholds of divergence, please see “Why sequencing is better at dismissing links than confirming them” in the Fundamental Theory chapter. However, we can also do a back-of-the envelope calculation to provide some context about what a 13 SNP difference means. Firstly, we should note that the average evolutionary rate of SARS-CoV-2 is roughly 24.5 substitutions across the entire genome per year (see Figure 5.4). This means that if we were to randomly sample two sequences that were sampled a year apart from each other, we would expect them on average to be 24.5 SNPs different from each other. If you were looking at the actual divergence between two sequences, the SNP difference counts would be whole numbers, but this rate is the average value if you were to repeat that sampling procedure many times over. If we take our two samples from County A that are separated by 13 SNPs and think about what this distance means in light of the evolutionary rate of the virus, we can say that roughly 6 months worth of transmission separates these two infections.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="case-studies.html#cb4-1"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&quot;figures/06_county-a-clock.png&quot;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:county-a-clock"></span>
 <img src="figures/06_county-a-clock.png" alt="The clock view from the global SARS-CoV-2 Nextstrain build maintained by the Nextstrain team (available at https://nextstrain.org/ncov/gisaid/global?l=clock). Each circle in this plot represents a sampled virus (a tip in the tree), and it’s position in the plot is determined by the date the virus was sampled and the number of SNPs that it has compared to the Wuhan-Hu-1 reference genome. The evolutionary rate estimate comes from the slope of a least-squares line fit through the data points." width="80%" />
 <p class="caption">
