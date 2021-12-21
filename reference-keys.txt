@@ -1,3 +1,4 @@
+fig:nice-fig
 intro
 what-is-this-handbook
 what-this-handbook-is-not.
