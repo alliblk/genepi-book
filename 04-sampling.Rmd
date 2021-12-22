@@ -34,7 +34,7 @@ In targeted sampling we aim to sequence as many samples as possible from a parti
 
 * Investigating individuals presenting with a second acute period of illness, to distinguish between a reinfection event and reactivation of latent disease.
 
-## Contextual dataset
+## Contextual data
 
 Targeted sampling focuses on deeply sampling particular settings, transmission chains, or infections that meet case definitions. Yet, to analyze those datasets appropriately, you need to include representatively-sampled genome sequences alongside your targeted samples. Within genomic epidemiology, we often refer to these other representative samples as _contextual data_. They provide a backdrop for what is happening more broadly outside of your densely sequenced target population, and can improve analytic inferences. Importantly, they also serve as controls, enabling you to see whether dynamics observed in your targeted population are unique to that population, or whether they are typical of the broader set of sequenced cases.
 
