@@ -22,7 +22,7 @@ fundamental-theory-in-genomic-epidemiology
 sample-selection
 representative-sampling
 targeted-sampling
-contextual-dataset
+contextual-data
 contextual-data-as-a-backdrop
 contextual-data-as-controls
 broad-use-cases-for-genomic-epidemiology
