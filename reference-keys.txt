@@ -14,6 +14,8 @@ the-value-of-pathogen-genomics-in-applied-epidemiology
 the-value-of-genomic-epidemiology-for-surveillance.
 the-value-of-genomic-epidemiology-for-outbreak-response.
 fundamental-theory-in-genomic-epidemiology
+targeted-sampling
+analysis-of-targeted-samples-should-include-representative-samples
 broad-use-cases-for-genomic-epidemiology
 case-studies
 are-cases-of-the-same-variant-of-concern-lineage-linked
