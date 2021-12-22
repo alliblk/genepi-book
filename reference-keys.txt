@@ -1,3 +1,7 @@
+fig:epi-curves
+fig:frequency-change
+fig:linking-cases
+fig:distinguishing-cases
 fig:county-a-bam
 fig:county-a-quality
 fig:county-a-placement
@@ -13,6 +17,7 @@ how-should-you-read-this-handbook
 the-value-of-pathogen-genomics-in-applied-epidemiology
 the-value-of-genomic-epidemiology-for-surveillance.
 the-value-of-genomic-epidemiology-for-outbreak-response.
+the-value-of-retrospective-data
 fundamental-theory-in-genomic-epidemiology
 sample-selection
 representative-sampling
