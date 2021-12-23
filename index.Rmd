@@ -1,5 +1,5 @@
---- 
-title: "An applied epidemiological handbook."
+---
+title: "An applied genomic epidemiological handbook."
 author: "Allison Black, Gytis Dudas, Patrick Ayscue"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -9,12 +9,8 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: alliblk/genepi-book
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "This is a short guide to the theory and practice of genomic epidemiology, oriented towards viral pathogens."
 ---
-
-# Preface {-}
-
-Lorem ipsum.
 
 
 ```{r eval=FALSE, echo=FALSE}
