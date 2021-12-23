@@ -2,6 +2,8 @@ fig:epi-curves
 fig:frequency-change
 fig:linking-cases
 fig:distinguishing-cases
+fig:contextual-data
+fig:within-host-versus-chain
 fig:county-a-bam
 fig:county-a-quality
 fig:county-a-placement
@@ -9,6 +11,7 @@ fig:county-a-clock
 fig:county-c-tree
 fig:county-c-overlay
 fig:county-c-jail-cluster
+fig:recombination
 intro
 what-is-this-handbook
 what-this-handbook-is-not.
@@ -26,6 +29,13 @@ contextual-data
 contextual-data-as-a-backdrop
 contextual-data-as-controls
 broad-use-cases-for-genomic-epidemiology
+assessing-linkage-between-cases
+what-kinds-of-questions-fall-into-this-topic
+fundamental-principles
+what-kind-of-sampling-do-you-need-to-answer-the-question
+what-tools-or-approaches-can-you-use-to-answer-the-question
+caveats-limitations-and-ways-things-go-wrong
+relevant-case-studies
 case-studies
 are-cases-of-the-same-variant-of-concern-lineage-linked
 evaluating-an-intake-screening-program-to-prevent-introduction-of-sars-cov-2-to-prisons.
