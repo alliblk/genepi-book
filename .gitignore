@@ -11,3 +11,6 @@ libs/
 .Rhistory
 .RData
 .Ruserdata
+
+# don't push up figure design files (just want pngs there)
+figures/*.afdesign
