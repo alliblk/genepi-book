@@ -11,6 +11,12 @@ fig:county-a-clock
 fig:county-c-tree
 fig:county-c-overlay
 fig:county-c-jail-cluster
+fig:b1620-nextclade
+fig:b1620-muts
+fig:b1620-early-tree
+fig:b1620-news
+fig:b1620-outbreak-info
+fig:b1620-coinfection
 fig:recombination
 intro
 what-is-this-handbook
@@ -60,6 +66,7 @@ relevant-case-studies-3
 case-studies
 are-cases-of-the-same-variant-of-concern-lineage-linked
 evaluating-an-intake-screening-program-to-prevent-introduction-of-sars-cov-2-to-prisons.
+identifying-assigning-and-investigating-a-new-sars-cov-2-lineage-in-lithuania
 tools-and-methods
 further-concepts
 recombination
