@@ -27,3 +27,12 @@ Note that while the table view in UShER will provide the name of a sequence entr
 ```{r usher-tree, fig.cap='The subtree for hypothetical_uploaded_sample_1 that is linked in the last column of the UShER summary table. You can see that two more of the uploaded hypothetical samples are most closely related to hypothetical_uploaded_sample_1, and so these show up on the subtree as well. You can also see that there are many different samples that have the identical genome sequence to USA/MN-QDX-1663/2020. All of the samples with identical genome sequences to USA/MN-QDX-1663/2020 are as similarly related to hypothetical_uploaded_sample_1 as USA/MN-QDX-1663/2020 is, so in this case you should exercise caution in your interpretation.', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE}
 knitr::include_graphics("figures/07-usher-subtree.png")
 ```
+
+### Nextclade
+
+Nextclade will take in your sequences and perform some quality assessment on the consensus genomes. You can then also place the sequences onto a background Nextstrain tree, either a globally-diverse phylogeny that is available by default within Nextclade, or some other previously-inferred Nextstrain tree that you supply. The Nextclade phylogenetic placement has the benefit of showing a fuller picture of viral evolutionary history leading up to where Nextclade places your sample of interest. Additionally, the Nextclade placement will place all of your samples of interest onto the same background tree, allowing you to see their placements together. However, Nextclade does not include any contextual data beyond the background tree, thus sequences near to your sample of interest in the placement _may not_ be the most genetically similar sequences to your sample of interest. This is a key difference in interpretation between the Nextclade placement and the UShER placement.
+
+
+```{r nextclade-tree, fig.cap='A Nextclade phylogenetic placement of 14 hypothetical samples. In contrast to the UShER subtree that we saw above, you can see the placement of all of these samples onto a single background tree, even though some of these samples are highly divergent. This provides a nice overview of the diversity of your sequences. However, this placement won’t tell you which sequences are most closely related to your uploaded sequences.', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics("figures/07-nextclade-tree.png")
+```
