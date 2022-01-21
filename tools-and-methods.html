@@ -24,7 +24,7 @@
 <meta name="author" content="Allison Black, Gytis Dudas, Patrick Ayscue" />
 
 
-<meta name="date" content="2022-01-20" />
+<meta name="date" content="2022-01-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -131,6 +131,7 @@
 <li class="chapter" data-level="6.1" data-path="case-studies.html"><a href="case-studies.html#are-cases-of-the-same-variant-of-concern-lineage-linked"><i class="fa fa-check"></i><b>6.1</b> Are cases of the same Variant of Concern lineage linked?</a></li>
 <li class="chapter" data-level="6.2" data-path="case-studies.html"><a href="case-studies.html#evaluating-an-intake-screening-program-to-prevent-introduction-of-sars-cov-2-to-prisons."><i class="fa fa-check"></i><b>6.2</b> Evaluating an intake screening program to prevent introduction of SARS-CoV-2 to prisons.</a></li>
 <li class="chapter" data-level="6.3" data-path="case-studies.html"><a href="case-studies.html#identifying-assigning-and-investigating-a-new-sars-cov-2-lineage-in-lithuania"><i class="fa fa-check"></i><b>6.3</b> Identifying, assigning, and investigating a new SARS-CoV-2 lineage in Lithuania</a></li>
+<li class="chapter" data-level="6.4" data-path="case-studies.html"><a href="case-studies.html#estimating-when-the-zika-virus-epidemic-began-in-colombia."><i class="fa fa-check"></i><b>6.4</b> Estimating when the Zika Virus epidemic began in Colombia.</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="tools-and-methods.html"><a href="tools-and-methods.html"><i class="fa fa-check"></i><b>7</b> Tools and methods</a><ul>
 <li class="chapter" data-level="7.1" data-path="tools-and-methods.html"><a href="tools-and-methods.html#phylogenetic-placements"><i class="fa fa-check"></i><b>7.1</b> Phylogenetic placements</a><ul>
@@ -139,7 +140,7 @@
 </ul></li>
 <li class="chapter" data-level="7.2" data-path="tools-and-methods.html"><a href="tools-and-methods.html#phylogenetic-trees"><i class="fa fa-check"></i><b>7.2</b> Phylogenetic trees</a><ul>
 <li class="chapter" data-level="7.2.1" data-path="tools-and-methods.html"><a href="tools-and-methods.html#nextstrain"><i class="fa fa-check"></i><b>7.2.1</b> Nextstrain</a></li>
-<li class="chapter" data-level="7.2.2" data-path="tools-and-methods.html"><a href="tools-and-methods.html#iqtree"><i class="fa fa-check"></i><b>7.2.2</b> IQTREE</a></li>
+<li class="chapter" data-level="7.2.2" data-path="tools-and-methods.html"><a href="tools-and-methods.html#iq-tree"><i class="fa fa-check"></i><b>7.2.2</b> IQ-TREE</a></li>
 <li class="chapter" data-level="7.2.3" data-path="tools-and-methods.html"><a href="tools-and-methods.html#raxml"><i class="fa fa-check"></i><b>7.2.3</b> RAxML</a></li>
 <li class="chapter" data-level="7.2.4" data-path="tools-and-methods.html"><a href="tools-and-methods.html#beast"><i class="fa fa-check"></i><b>7.2.4</b> BEAST</a></li>
 </ul></li>
@@ -235,8 +236,8 @@ Figure 7.3: A Nextclade phylogenetic placement of 14 hypothetical samples. In co
 <p>Finally, <a href="https://nextstrain.org/">nextstrain.org</a> is a website where visitors can access interactive Nextstrain trees for various different pathogens and outbreaks, such as trees summarizing the Zika virus epidemic in the Americas, the West African Ebola outbreak, or seasonal influenza circulation (among many others).</p>
 </div>
 </div>
-<div id="iqtree" class="section level3">
-<h3><span class="header-section-number">7.2.2</span> IQTREE</h3>
+<div id="iq-tree" class="section level3">
+<h3><span class="header-section-number">7.2.2</span> IQ-TREE</h3>
 <p>To create the genetic divergence tree in a Nextstrain Augur analysis, the pipeline uses an external software package that infers phylogenetic trees using a Maximum Likelihood-based procedure. If you have set up your own Nextstrain Augur pipeline, then you can choose which package you would like Nextstrain Augur to use. Currently, there are three you can choose from: IQ-TREE, RAxML, and FASTTREE. By default, Nextstrain uses <a href="http://www.iqtree.org/">IQ-TREE</a>. If you want to generate a Maximum Likelihood genetic divergence tree outside of Nextstain, you can use IQ-TREE on its own, either using the command-line interface, or by specifying an analysis on the <a href="http://iqtree.cibiv.univie.ac.at/">IQ-TREE web server</a>, which has a graphic user interface for specifying options.</p>
 </div>
 <div id="raxml" class="section level3">

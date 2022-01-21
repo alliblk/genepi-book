@@ -17,6 +17,9 @@ fig:b1620-early-tree
 fig:b1620-news
 fig:b1620-outbreak-info
 fig:b1620-coinfection
+fig:zika-three-panel
+fig:zika-clade-1
+fig:zika-usvi
 fig:usher-table
 fig:usher-tree
 fig:nextclade-tree
@@ -70,6 +73,7 @@ case-studies
 are-cases-of-the-same-variant-of-concern-lineage-linked
 evaluating-an-intake-screening-program-to-prevent-introduction-of-sars-cov-2-to-prisons.
 identifying-assigning-and-investigating-a-new-sars-cov-2-lineage-in-lithuania
+estimating-when-the-zika-virus-epidemic-began-in-colombia.
 tools-and-methods
 phylogenetic-placements
 usher
@@ -79,7 +83,7 @@ nextstrain
 nextstrain-augur
 nextstrain-auspice
 nextstrain.org
-iqtree
+iq-tree
 raxml
 beast
 when-should-i-use-a-phylogenetic-tree-versus-a-phylogenetic-placement
