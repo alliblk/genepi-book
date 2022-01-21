@@ -67,7 +67,7 @@ Nextstrain is really three things:
 
 Finally, [nextstrain.org](https://nextstrain.org/) is a website where visitors can access interactive Nextstrain trees for various different pathogens and outbreaks, such as trees summarizing the Zika virus epidemic in the Americas, the West African Ebola outbreak, or seasonal influenza circulation (among many others).
 
-### IQTREE
+### IQ-TREE
 
 To create the genetic divergence tree in a Nextstrain Augur analysis, the pipeline uses an external software package that infers phylogenetic trees using a Maximum Likelihood-based procedure. If you have set up your own Nextstrain Augur pipeline, then you can choose which package you would like Nextstrain Augur to use. Currently, there are three you can choose from: IQ-TREE, RAxML, and FASTTREE. By default, Nextstrain uses [IQ-TREE](http://www.iqtree.org/). If you want to generate a Maximum Likelihood genetic divergence tree outside of Nextstain, you can use IQ-TREE on its own, either using the command-line interface, or by specifying an analysis on the [IQ-TREE web server](http://iqtree.cibiv.univie.ac.at/), which has a graphic user interface for specifying options.
 
