@@ -2,6 +2,10 @@ fig:epi-curves
 fig:frequency-change
 fig:linking-cases
 fig:distinguishing-cases
+fig:msa-to-tree
+fig:clades
+fig:basal
+fig:tree-rooting
 fig:contextual-data
 fig:within-host-versus-chain
 fig:county-a-bam
@@ -41,6 +45,12 @@ when-a-transmission-event-occurs-the-within-host-viral-diversity-of-the-infector
 consensus-genomes-provide-a-summary-of-the-within-host-diversity.
 terminology-for-describing-changes-in-genetic-sequences.
 mutation-rates-evolutionary-rates-and-molecular-clocks
+phylogenetic-trees
+what-is-a-phylogenetic-tree
+assessing-and-reading-a-phylogenetic-tree.
+temporally-resolved-phylogenetic-trees.
+the-transmission-tree-does-not-equate-the-phylogenetic-tree.
+why-is-sequencing-better-at-dismissing-links-than-confirming-them
 sample-selection
 representative-sampling
 targeted-sampling
@@ -85,7 +95,7 @@ tools-and-methods
 phylogenetic-placements
 usher
 nextclade
-phylogenetic-trees
+phylogenetic-trees-1
 nextstrain
 nextstrain-augur
 nextstrain-auspice
