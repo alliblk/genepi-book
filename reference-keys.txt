@@ -34,6 +34,13 @@ the-value-of-genomic-epidemiology-for-surveillance.
 the-value-of-genomic-epidemiology-for-outbreak-response.
 the-value-of-retrospective-data
 fundamental-theory-in-genomic-epidemiology
+the-overlapping-timescales-of-pathogen-evolution-and-pathogen-transmission.
+viral-diversity-accumulates-over-the-course-of-a-single-individuals-infection.
+stochasticity-and-selection-influence-variant-frequency-of-within-an-infection.
+when-a-transmission-event-occurs-the-within-host-viral-diversity-of-the-infector-is-sampled-and-transmitted-to-the-recipient.
+consensus-genomes-provide-a-summary-of-the-within-host-diversity.
+terminology-for-describing-changes-in-genetic-sequences.
+mutation-rates-evolutionary-rates-and-molecular-clocks
 sample-selection
 representative-sampling
 targeted-sampling
