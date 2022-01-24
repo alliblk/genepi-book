@@ -2,10 +2,15 @@ fig:epi-curves
 fig:frequency-change
 fig:linking-cases
 fig:distinguishing-cases
+fig:worobey-hiv
+fig:hbv
+fig:ebola
 fig:msa-to-tree
 fig:clades
 fig:basal
 fig:tree-rooting
+fig:flu-distributions
+fig:scv2-distributions
 fig:contextual-data
 fig:within-host-versus-chain
 fig:county-a-bam
