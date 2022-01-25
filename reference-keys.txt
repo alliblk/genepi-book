@@ -56,6 +56,7 @@ assessing-and-reading-a-phylogenetic-tree.
 temporally-resolved-phylogenetic-trees.
 the-transmission-tree-does-not-equate-the-phylogenetic-tree.
 why-is-sequencing-better-at-dismissing-links-than-confirming-them
+how-many-mutations-are-enough-to-rule-linkage-out
 sample-selection
 representative-sampling
 targeted-sampling
@@ -113,3 +114,6 @@ selecting-contextual-data-for-phylogenetic-tree-analyses
 notes-about-node-ages-in-temporally-resolved-trees
 further-concepts
 recombination
+a-deeper-dive-into-molecular-clocks
+strict-versus-relaxed
+reiterating-caveats
