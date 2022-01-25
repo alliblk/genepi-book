@@ -33,7 +33,6 @@ fig:usher-table
 fig:usher-tree
 fig:nextclade-tree
 fig:recombination
-an-applied-genomic-epidemiological-handboook.
 intro
 what-is-this-handbook
 what-this-handbook-is-not.
