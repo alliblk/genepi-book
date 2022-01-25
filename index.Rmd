@@ -12,6 +12,8 @@ github-repo: alliblk/genepi-book
 description: "This is a short guide to the theory and practice of genomic epidemiology, oriented towards viral pathogens."
 ---
 
+A short guide to the theory and practice of genomic epidemiology.
+
 ```{r title-page, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE}
 knitr::include_graphics("figures/gytis-tree-title-page.png")
 ```
