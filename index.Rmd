@@ -14,7 +14,7 @@ description: "This is a short guide to the theory and practice of genomic epidem
 
 # An applied genomic epidemiological handboook.
 
-```{r nextclade-tree, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE}
+```{r title-page, out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE}
 knitr::include_graphics("figures/gytis-tree-title-page.png")
 ```
 
