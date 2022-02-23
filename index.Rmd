@@ -1,6 +1,6 @@
 ---
 title: "An applied genomic epidemiological handbook."
-author: "Allison Black, Gytis Dudas, Patrick Ayscue"
+author: "Allison Black and Gytis Dudas"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
