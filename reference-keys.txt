@@ -49,7 +49,7 @@ stochasticity-and-selection-influence-variant-frequency-of-within-an-infection.
 when-a-transmission-event-occurs-the-within-host-viral-diversity-of-the-infector-is-sampled-and-transmitted-to-the-recipient.
 consensus-genomes-provide-a-summary-of-the-within-host-diversity.
 terminology-for-describing-changes-in-genetic-sequences.
-mutation-rates-evolutionary-rates-and-molecular-clocks
+mutation-rates-evolutionary-rates-and-the-molecular-clock
 phylogenetic-trees
 what-is-a-phylogenetic-tree
 assessing-and-reading-a-phylogenetic-tree.
