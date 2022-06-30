@@ -32,7 +32,7 @@ knitr::include_graphics("figures/05_contextual_data.png")
 
 ### What tools or approaches can you use to answer the question?
 
-To investigate questions of linakge you will need a way to compare and summarize the genetic similarity between cases of interest. There are multiple methods for summarizing genetic distances between samples, but we generally recommend using tree structures such as **phylogenetic placements** or **phylogenetic trees** (see Chapter 7 for more details) when assessing sequence similarity between samples.
+To investigate questions of linkage you will need a way to compare and summarize the genetic similarity between cases of interest. There are multiple methods for summarizing genetic distances between samples, but we generally recommend using tree structures such as **phylogenetic placements** or **phylogenetic trees** (see Chapter 7 for more details) when assessing sequence similarity between samples.
 
 While it is technically possible to build a tree structure with just your samples of interest, we caution against doing this, as the addition of other contextual sequences usually makes the relationships between your samples of interest more clear. Furthermore, in the case that your samples of interest _are not_ genetically similar to each other, the presence of contextual sequences allows you to see other samples that they _are_ closely-related to (Figure 5.1).
 
